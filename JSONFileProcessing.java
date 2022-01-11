@@ -1,4 +1,3 @@
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -55,11 +54,9 @@ public class JSONFileProcessing {
                 System.out.println(key + " " + value);
             }
 
-        } catch (ParseException e) {
+        }  catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
