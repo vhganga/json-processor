@@ -1,7 +1,7 @@
 Steps to test the this codebase:
 
-1. javac -classpath <<JAR File Path>> JSONFileProcessing.java
-2. java -classpath <<JAR File Path>>;<<Java Class File Path>> JSONFileProcessing
+1. javac -classpath _**JAR File Path**_ JSONFileProcessing.java
+2. java -classpath **JAR File Path**__;**Java Class File Path**__ JSONFileProcessing
 
 
 For example, following is the run outcome, when I tested locally on Windows machine
