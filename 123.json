@@ -1,0 +1,214 @@
+{
+    "Instances": [
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.191.132.44",
+                "LaunchTime": "2014-07-25T22:01:06.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.26.210.223",
+                "LaunchTime": "2015-06-15T22:28:24.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.25.146.85",
+                "LaunchTime": "2015-06-18T23:58:07.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.149.132.211",
+                "LaunchTime": "2014-12-09T19:53:11.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.43.178.219",
+                "LaunchTime": "2018-08-15T07:27:04.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.149.62.14",
+                "LaunchTime": "2015-10-05T19:04:38.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.89.45.85",
+                "LaunchTime": "2015-10-06T17:29:27.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.213.80.156",
+                "LaunchTime": "2015-12-15T00:00:03.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.191.212.97",
+                "LaunchTime": "2015-08-19T18:11:30.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.32.56.19",
+                "LaunchTime": "2015-11-06T18:57:05.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.186.108.13",
+                "LaunchTime": "2016-04-12T14:42:12.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.191.156.139",
+                "LaunchTime": "2016-04-12T21:45:13.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.149.118.68",
+                "LaunchTime": "2016-06-09T22:19:43.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.201.215.127",
+                "LaunchTime": "2016-06-13T18:39:38.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.213.232.226",
+                "LaunchTime": "2016-06-13T18:41:30.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.218.10.230",
+                "LaunchTime": "2016-06-13T18:43:02.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.149.161.47",
+                "LaunchTime": "2017-08-07T17:19:13.000Z",
+                "Environment": "test"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.201.183.35",
+                "LaunchTime": "2016-09-02T21:49:41.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "52.42.176.134",
+                "LaunchTime": "2016-08-30T23:44:10.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.200.117.95",
+                "LaunchTime": "2016-09-07T23:46:00.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.201.83.144",
+                "LaunchTime": "2016-12-15T18:11:49.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.244.0.135",
+                "LaunchTime": "2016-12-17T01:06:31.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.244.193.197",
+                "LaunchTime": "2017-01-16T19:02:12.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.190.199.28",
+                "LaunchTime": "2017-04-15T02:25:45.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.245.215.148",
+                "LaunchTime": "2017-05-11T16:38:22.000Z",
+                "Environment": "staging"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.214.106.134",
+                "LaunchTime": "2017-07-06T00:08:53.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.191.183.90",
+                "LaunchTime": "2017-07-11T22:08:21.000Z",
+                "Environment": "production"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.201.0.220",
+                "LaunchTime": "2016-12-17T01:04:28.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.201.35.135",
+                "LaunchTime": "2016-12-17T01:08:04.000Z",
+                "Environment": "testing"
+            }
+        },
+        {
+            "InstanceData": {
+                "PublicIpAddress": "54.202.236.88",
+                "LaunchTime": "2017-08-15T00:27:44.000Z",
+                "Environment": "production"
+            }
+        }
+    ]
+}
