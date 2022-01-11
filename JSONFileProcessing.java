@@ -48,10 +48,10 @@ public class JSONFileProcessing {
                 System.out.println(key + " " + value);
             }
             System.out.println("Env to IP map: ");
-            Map<String, List> env_to_ip_map = map_environment_to_ips(instances);
+            Map<String, List<String>> env_to_ip_map = map_environment_to_ips(instances);
             for (String envToIP : env_to_ip_map.keySet()) {
                 String key = envToIP;
-                List value = (env_to_ip_map.get(key));
+                List <String> value = (env_to_ip_map.get(key));
                 System.out.println(key + " " + value);
             }
 
@@ -69,9 +69,9 @@ public class JSONFileProcessing {
         return instances.size();
     }
 
-    private static java.util.List list_environments(JSONArray instances) {
+    private static java.util.List<String> list_environments(JSONArray instances) {
 
-        java.util.List<String> uniqueEnvironments = new java.util.ArrayList();
+        java.util.List<String> uniqueEnvironments = new java.util.ArrayList<String>();
         for (int i = 0; i < instances.size(); i++) {
             JSONObject instance = (JSONObject) instances.get(i);
             JSONObject InstanceData = (JSONObject) instance.get("InstanceData");
@@ -91,7 +91,7 @@ public class JSONFileProcessing {
         simpleDateFormat.setTimeZone(java.util.TimeZone.getTimeZone("UTC"));
         java.sql.Timestamp currentTimestamp = new java.sql.Timestamp(System.currentTimeMillis());
 
-        java.util.Map<String, Double> averageHostUptimes = new java.util.HashMap();
+        java.util.Map<String, Double> averageHostUptimes = new java.util.HashMap<String, Double>();
         for (int i = 0; i < instances.size(); i++) {
             JSONObject instance = (JSONObject) instances.get(i);
             JSONObject InstanceData = (JSONObject) instance.get("InstanceData");
@@ -116,8 +116,8 @@ public class JSONFileProcessing {
 
     }
 
-    private static java.util.Map<String, List> map_environment_to_ips(JSONArray instances) {
-        java.util.Map<String, List> environmentToIPs = new java.util.HashMap();
+    private static java.util.Map<String, List<String>> map_environment_to_ips(JSONArray instances) {
+        java.util.Map<String, List<String>> environmentToIPs = new java.util.HashMap<String, List<String>>();
 
         for (int i = 0; i < instances.size(); i++) {
             JSONObject instance = (JSONObject) instances.get(i);
@@ -126,11 +126,11 @@ public class JSONFileProcessing {
             String publicIpAddress = InstanceData.get("PublicIpAddress").toString();
 
             if (environmentToIPs.containsKey(environment)) {
-                List ipAddressList = environmentToIPs.get(environment);
+                List <String> ipAddressList = environmentToIPs.get(environment);
                 ipAddressList.add(publicIpAddress);
                 environmentToIPs.put(environment, ipAddressList);
             } else {
-                List ipAddressList = new java.util.ArrayList();
+                List <String> ipAddressList = new java.util.ArrayList<String>();
                 ipAddressList.add(publicIpAddress);
                 environmentToIPs.put(environment, ipAddressList);
             }
